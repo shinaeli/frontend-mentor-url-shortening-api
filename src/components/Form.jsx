@@ -14,7 +14,7 @@ const Form = () => {
         method: 'POST',
         headers: {
             'content-type': 'application/x-www-form-urlencoded',
-            'X-RapidAPI-Key': 'd50411d0e4msh51bf292c757e445p175059jsn72dec55f6ac3',
+            'X-RapidAPI-Key': import.meta.env.VITE_X_RAPIDAPI_KEY,
             'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com'
         },
         body: new URLSearchParams({
